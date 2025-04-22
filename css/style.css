@@ -1,0 +1,99 @@
+
+/* 
+The Formula:
+    selector{
+        property: value;
+    } 
+*/
+
+/* STEP 0: body
+    - Change the background-color of the webpage  
+    HINT: 
+        selector = body
+        property = background-color
+        value = any CSS color you want! 
+*/
+
+body{background-color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+
+}
+
+.my-intro{background-color: rgb(206, 13, 13);}
+
+h1{
+    text-align: center;
+    text-decoration: dotted;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+    color: rgb(247, 89, 178);
+    margin-bottom: 10px;
+} 
+
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(227, 183, 40);
+    text-decoration: wavy;
+    padding-bottom: 50px;
+ 
+}
+
+.main{background-color: rgb(203, 103, 2);
+    }
+
+.my-favorites{background-color:rgb(241, 181, 13) }
+.photo-1{background-color:rgb(0, 186, 6) ;
+    border-style: dotted;
+}
+img{
+        
+        size: 50px;
+        margin-top: 5px;
+        margin-left: 450px;
+        margin-right: 450px;
+        margin-bottom: 50px;
+        padding-top: 100px;
+        width: 500px;
+       
+    }
+.photo-2 {background-color: green;}
+
+
+ p{
+        padding-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        padding-bottom: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+
+ 
+
+ }
+
+
+
+ a{ color: rgb(235, 135, 182);
+    align: center;
+
+
+}
+
+
+
+ul{
+            text-align: center;
+            list-style-position: inside;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(255, 255, 255);
+            padding-bottom: 50px;
+        
+        }
+
+        .unicorn-cake {background-color: blue;}
+
+        .angry-birds{background-color: blueviolet;}
+
+        .princess-cakes{background-color: rgb(226, 28, 140);}
