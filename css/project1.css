@@ -3,7 +3,20 @@ body{background-color: rgb(0, 0, 0);
 
 }
 
-.my-intro{background-color: rgb(206, 13, 13);}
+.my-intro{background-color: rgb(206, 13, 13);
+    width: 100%;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+  
+  div {
+    font-family: myFirstFont;
+  }
+
+
 
 h1{
 
@@ -14,7 +27,9 @@ h1{
     margin-bottom: 10px;
 } 
 
+
 h2{
+    position: absolute;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-small;
@@ -24,28 +39,51 @@ h2{
  
 }
 
-.main{background-color: rgb(2, 0, 36, 100);
+.elmo {border: #b03f58;}
+
+.main{background: #b03f58;
+    background: linear-gradient(90deg,rgba(176, 63, 88, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    width: 100%;
     }
 
-.my-favorites{background-color:rgb(241, 59, 13) }
-.photo-1{background-color:rgb(140, 105, 7) ;
-    border-style: dotted;
+.my-favorites{background-color:rgb(0, 0, 0) 
+}
+.photo-1{background: #b03f58;
+    background: linear-gradient(90deg,rgba(176, 63, 88, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    width: 100%;
 }
 
-iframe{position: absolute;}
+.cupcake-vid{position: absolute;
+    top: 100px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: #b03f58;
+   }
 
-img{
-        
+
+.unicorn-vid {position: absolute;
+   size: 100px;
+   border: #b03f58;
+
+   }
+   
+
+img{                                                                                                 
+        display: block;
         size: 50px;
-        margin-top: 5px;
-        margin-left: 450px;
-        margin-right: 450px;
-        margin-bottom: 50px;
-        padding-top: 100px;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
         width: 500px;
        
     }
-.photo-2 {background-color: rgb(128, 9, 0);}
+.photo-2 {background-color: rgb(128, 9, 0);
+    width: 100%;
+}
 
 
  p{
@@ -81,8 +119,16 @@ ul{
         
         }
 
-        .unicorn-cake {background-color: rgb(84, 58, 6);}
+        .unicorn-cake {background-color: rgb(0, 0, 0);
+            display: block;
+            width: 100%;
+        }
 
-        .angry-birds{background-color: rgb(179, 33, 33); }
+        .angry-birds{background: #b03f58;
+            background: linear-gradient(90deg,rgba(176, 63, 88, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+            width: 100%;
+        }
 
-        .princess-cakes{background-color: rgb(246, 166, 18);}
+       .princess-cakes {background-color: rgb(0, 0, 0);
+        width: 100%;
+    }
